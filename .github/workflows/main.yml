@@ -11,6 +11,13 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: FTP Deploy Locaweb
+      shell: bash
+      run: |
+        cat > htaccess << EOL
+          RewriteEngine On
+          RewriteCond %{SERVER_PORT} 80
+          RewriteRule ^(.*)$ https://www.lazaromonteiro.com/$1 [R,L]
+          EOL
       uses: locaweb/ftp-deploy@1.0.0
       with:
         host: ${{ secrets.HOST1 }}
@@ -20,6 +27,13 @@ jobs:
         remoteDir: "public_html"
     
     - name: FTP Deploy Locaweb
+      shell: bash
+      run: |
+        cat > htaccess << EOL
+          RewriteEngine On
+          RewriteCond %{SERVER_PORT} 80
+          RewriteRule ^(.*)$ https://www.lazaromonteiro.com.br/$1 [R,L]
+          EOL
       uses: locaweb/ftp-deploy@1.0.0
       with:
         host: ${{ secrets.HOST2 }} 

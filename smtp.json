@@ -1,0 +1,7 @@
+{
+    "host": "mail.smtp2go.com",
+    "auth": true,
+    "secure": "tls",
+    "port": 2525,
+    "from": "contact@lazaromonteiro.com"
+}

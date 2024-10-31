@@ -7,27 +7,30 @@ use PHPMailer\PHPMailer\Exception;
 require "vendor/autoload.php";
 
 // Debugging
-/*
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-*/
+
 
 if($_POST){
 
+    $content = file_get_contents("smtp.json");
+    $smtp = json_decode($content, true);
+
     $mail = new PHPMailer(true);
-    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
     // Sets up PHP Mailer
     $mail->isSMTP();
-    $mail->Host = 'mail.smtp2go.com';
-    $mail->SMTPAuth = true;
-    $mail->Username = getenv('smtp_username');
-    $mail->Password = getenv('smtp_password');;
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 2525;
+    $mail->Host = $smtp['host'];
+    $mail->SMTPAuth = $smtp['auth'];
+    $mail->Username = $smtp['username'];
+    $mail->Password =  $smtp['password'];
+    $mail->SMTPSecure = $smtp['secure'];
+    $mail->Port = $smtp['port'];
 
-    $mail->setFrom('contact@lazaromonteiro.com', 'Portfolio Webpage');
+    $mail->setFrom($smtp['from'], 'Portfolio Webpage');
     $mail->addAddress('contact@lazaromonteiro.com', 'Lazaro Monteiro');
 
     $mail->isHTML(false);
