@@ -80,6 +80,7 @@
 									<?php include("assets/php/send-email.php"); ?>
 								</form>
 								<ul class="icons">
+									<li><a href="https://wa.me/5588988857429" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
 									<li><a href="mailto:contact@lazaromonteiro.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
 									<li><a href="https://github.com/lazaromjr" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.linkedin.com/in/lazaromjr/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
