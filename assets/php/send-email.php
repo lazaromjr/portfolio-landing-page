@@ -16,7 +16,6 @@ error_reporting(E_ALL);
 
 if($_POST){
     try {
-
         // Load .env
         $dotenv = Dotenv::createImmutable(__DIR__, '../../smtp.env');
         $dotenv->safeLoad();
@@ -40,8 +39,12 @@ if($_POST){
         $mail->Subject = 'Contact from lazaromonteiro.com webpage';
         $mail->Body = 'From: ' . $_POST['email'] . "\nName: " . $_POST['name'] . "\n\n" . $_POST['message'];
     
-        $mail->send();
-        echo "<p style='color:green'> The message was successfully sent! </p>";
+        if ($_POST['email'] != null && $_POST['name'] != null && $_POST['message'] != null) {
+            $mail->send();
+            echo "<p style='color:green'> The message was successfully sent! </p>";
+        } else {
+            echo "<p style='color:red'> Please fill all the fields! </p>";
+        }
     
     }
     catch (Exception $e) {
