@@ -22,7 +22,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Lazaro Monteiro</h1>
-								<p> Full-stack developer currently working with C# and Node JS/React. Master of Science in Computer Science from UFERSA and UERN in the Systems and Circuits Design area. </p>
+								<p> Software developer with background in web development. Master of Science in Computer Science from UFERSA and UERN. </p>
 							</div>
 						</div>
 						<nav>
@@ -38,21 +38,72 @@
 				<!-- Main -->
 					<div id="main">
 						<!-- Work -->
-							<article id="work">
+							<article id="work" style class="large">
 								<h2 class="major">My Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-								<h3>Container Terminal Information System</h3>
-								<h3>REPAIR Anti-Aliasing</h3>
-								<h3>Published Paper</h3>
+								<h3>Container Terminal Information System (CTIS)</h3>
+								<span class="image main"><img src="images/port.jpg" alt="" /></span>
+								<ul>
+									<li>
+										Re-engineered a legacy system into a modern web application using <b>C#</b> for the back-end and <b>Node JS/React</b> with <b>DevExtreme UI Kit</b> for the front-end. This system was critical for one of the largest container ports in the Americas, but it was no longer maintainable due to the obsolescence of the original language.
+									</li>
+									<li>
+										The new system significantly reduced response times, enhanced security, was fully compatible with smartphones and tablets, and also included several new features. Finally, the client become able to manage the application independently, thanks to improved documentation, organized code structure, and the use of established languages with strong community support, ensuring long-term maintainability.
+									</li>
+								</ul>
+								<h3>Anti-Aliasing Method Based on Rotated Spatial Filtering</h3>
+								<span class="image main"><img src="images/repair-aa.jpg" alt="" /></span>
+								<ul>
+									<li>
+										Research published at the Springer Multimedia Tools and Applications Journal <a href="https://link.springer.com/article/10.1007/s11042-024-18632-y" class="icon solid fa-link" target="_blank"><span class="label">link</span></a>
+									</li>
+									<li> 
+										Master Thesis: Anti-­Aliasing Method Based on Rotated Spatial Filtering <a href="https://repositorio.ufersa.edu.br/items/46a8cbfd-f226-44dd-809a-9be3aaed537b" class="icon solid fa-link" target="_blank"><span class="label">link</a>
+									</li>
+									<li>
+										Project available at GitHub <a href="https://github.com/lazaromjr/REPAIR-Anti-Aliasing" class="icon solid fa-link" target="_blank"><span class="label">lin</span></a>
+									</li>
+									<!-- -->
+									<li style="padding-top: 1rem;">
+										Developed a post-filtering anti-aliasing method that uses digital image processing tools to smooth the regions around the edges where there is a higher probability that aliasing will occur. As with other anti-aliasing methods, it aims to improve the visual perception of digital images by smoothing aliasing effects caused by unavoidable undersampling issues.
+									</li>
+									<li>
+										The method improved the quality of all tested images, working on all edges, shadows, textures, not affecting the illumination, as expected. It executes in the right places and in the right direction, being simple and cost-efficient. Overall, the results were satisfactory.
+									</li>
+								</ul>
+								<h3>Totvs Protheus ERP Support</h3>
+								<span class="image main"><img src="images/erp.jpg" alt="" /></span>
+								<ul>
+									<li>
+										Offered user support by resolving technical problems related to the Totvs Protheus, an Enterprise Resource Planning (ERP) system designed to integrate and manage core business processes across an organization.
+									</li>
+									<li>
+										Led implementations, provided training sessions and developed comprehensive user manuals to facilitate adoption and enhance productivity.
+									</li>
+								</ul>
+								<h3>Analysis of Reflectivity Profiles Obtained from a Micro Rain Radar - MRR-2</h3>
+								<span class="image main"><img src="images/mrr2.jpg" alt="" /></span>
+								<ul>
+									<li>
+										Research presented at XXXVIII National Meeting of Condensed Matter Physics
+									</li>
+									<li>
+										Research presented at XXI Scientific Initiation Seminar of UFERSA
+									</li>
+									<!-- -->
+									<li style="padding-top: 1rem;">
+										Developed a <b>C++</b> application to process and analyze reflectivity profiles collected via a Micro Rain Radar (MRR-2), which employs Doppler frequency to measure several rain parameters up to 6,200 meters above the radar.
+									</li>
+									<li>
+										The results described the diurnal cycle of weather systems operating in the region, contributing to the development of theoretical models to enhance the accuracy of regional weather forecast.
+									</li>
+								</ul>
 							</article>
 
 						<!-- About Me -->
 							<article id="about">
 								<h2 class="major">About Me</h2>
 								<span class="image left"><img src="images/profile-edit.jpg" alt="" /></span>
-								<p> I am a full-stack developer currently working with C# and Node JS/React. I have Master of Science degree in Computer Science from UFERSA and UERN in the area of Systems and Circuits Design. Developed a new anti-aliasing method for my master's thesis using Digital Image Processing tools. </p>
+								<p> I am a software developer with background in web development, system architecture, and research-driven problem-solving. Skilled in <b>C#</b>, <b>React</b>, <b>.NET</b>, and data-driven solutions, with experience modernizing legacy systems and delivering high-performance applications. Proven ability to bridge academic research (e.g., anti-aliasing algorithms) with software development. Adept at full-stack development, agile methodologies, and cross-platform solutions, driven by a passion for innovation and technical excellence. </p>
 							</article>
 
 						<!-- Contact -->
@@ -80,9 +131,10 @@
 									<?php include("assets/php/send-email.php"); ?>
 								</form>
 								<ul class="icons">
+									<li><a href="https://t.me/lazaromjr" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 									<li><a href="mailto:contact@lazaromonteiro.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
-									<li><a href="https://github.com/lazaromjr" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/lazaromjr/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/lazaromjr" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/lazaromjr/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 								</ul>
 							</article>
 
@@ -332,7 +384,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Lazaro R. Monteiro Junior. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Lazaro R. Monteiro Junior. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
