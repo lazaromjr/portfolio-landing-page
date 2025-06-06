@@ -22,7 +22,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Lazaro Monteiro</h1>
-								<p> Full-stack developer currently working with C# and Node JS/React. Master of Science in Computer Science from UFERSA and UERN in the Systems and Circuits Design area. </p>
+								<p> Full-stack developer with background in web development. Master of Science in Computer Science from UFERSA and UERN. </p>
 							</div>
 						</div>
 						<nav>
@@ -30,7 +30,8 @@
 								<li><a href="#about">About Me</a></li>
 								<li><a href="#work">My Work</a></li>
 								<li><a href="#contact">Contact</a></li>
-								<!-- <li><a href="#elements">Elements</a></li> -->
+								<!-- -->
+								<li><a href="#elements">Elements</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -38,12 +39,30 @@
 				<!-- Main -->
 					<div id="main">
 						<!-- Work -->
-							<article id="work">
+							<article id="work" style class="large">
 								<h2 class="major">My Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 								<h3>Container Terminal Information System</h3>
+									<ul>
+										<li>
+											Re-engineered a legacy system into a modern web application using <b>C#</b> for the back-end and <b>Node JS/React</b> with <b>DevExtreme UI Kit</b> for the front-end. This system was critical for one of the largest container ports in the Americas, but it was no longer maintainable due to the obsolescence of the original language.
+										</li>
+										<li>
+											The back-end was a <b>RESTful API</b> developed in <b>C#</b> with <b>.NET Framework</b> and <b>Dapper</b> ORM. The API was designed and documented with <b>Swagger</b>, adopting the <b>MVC</b> design pattern. The existing Oracle database was kept, using <b>Oracle SQL</b> for the queries.
+										</li>
+										<li>
+											The front-end was developed in <b>Javascript</b> with <b>React</b> library, running on the <b>Node JS</b> runtime. <b>HTML</b> and <b>CSS</b> were used for the web design, and the <b>DevExtreme UI Kit</b> was adopted to maintain consistency with another client applications. The front-end project was documented with with <b>JSDoc</b>.
+										</li>
+										<li>
+											Initially, version control was done with <b>Microsoft Team Foundation Server (TFS)</b>, but transitioned to <b>Git</b> with <b>Azure DevOps</b>, adopting <b>GitFlow</b> for branch management. <b>CI/CD</b> processes were also managed with <b>Azure DevOps</b>.
+										</li>
+										<li>
+											<b>Scrum</b> was implemented to manage the project development, featuring daily meetings to discuss progress and the next steps. The tasks were organized on a <b>Kanban</b> board for progress tracking, with the project divided into one-week sprints.
+										</li>
+										<li>
+											The new system significantly reduced response times, enhanced security (through <b>JWT</b>, <b>Bearer Authentication</b> and <b>Microsoft SSO</b>), was fully compatible with smartphones and tablets, and also included several new features. Finally, the client was able to manage the application independently, thanks to improved documentation, organized code structure, and the use of established languages with strong community support, ensuring long-term maintainability.
+										</li>
+									</ul>
 								<h3>REPAIR Anti-Aliasing</h3>
 								<h3>Published Paper</h3>
 							</article>
@@ -52,7 +71,7 @@
 							<article id="about">
 								<h2 class="major">About Me</h2>
 								<span class="image left"><img src="images/profile-edit.jpg" alt="" /></span>
-								<p> I am a full-stack developer currently working with C# and Node JS/React. I have Master of Science degree in Computer Science from UFERSA and UERN in the area of Systems and Circuits Design. Developed a new anti-aliasing method for my master's thesis using Digital Image Processing tools. </p>
+								<p> I am a software developer with background in web development, system architecture, and research-driven problem-solving. Skilled in <b>C#</b>, <b>React</b>, <b>.NET</b>, and data-driven solutions, with experience modernizing legacy systems and delivering high-performance applications. Proven ability to bridge academic research (e.g., anti-aliasing algorithms) with software development. Adept at full-stack development, agile methodologies, and cross-platform solutions, driven by a passion for innovation and technical excellence. </p>
 							</article>
 
 						<!-- Contact -->
@@ -80,6 +99,7 @@
 									<?php include("assets/php/send-email.php"); ?>
 								</form>
 								<ul class="icons">
+									<li><a href="https://t.me/lazaromjr" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>
 									<li><a href="mailto:contact@lazaromonteiro.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
 									<li><a href="https://github.com/lazaromjr" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.linkedin.com/in/lazaromjr/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
