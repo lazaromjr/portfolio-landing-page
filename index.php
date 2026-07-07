@@ -22,7 +22,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Lazaro Monteiro</h1>
-								<p> Software developer with background in web development. Master of Science in Computer Science from UFERSA and UERN. </p>
+								<p> Tech Lead and Full-Stack Developer | TypeScript, React, C#, C++ | MS Computer Science </p>
 							</div>
 						</div>
 						<nav>
@@ -40,6 +40,19 @@
 						<!-- Work -->
 							<article id="work" style class="large">
 								<h2 class="major">My Work</h2>
+								<h3>CRM Integration for AURA</h3>
+								<span class="image main"><img src="images/telco.jpg" alt="" /></span>
+								<ul>
+									<li>
+										Tech Lead at Vivo, the Brazilian branch of Telefonica, where I coordinate cross-squad activities, manage task prioritization, and ensure clear communication between technical teams and stakeholders.
+									</li>
+									<li>
+										In the Phoenix squad, I lead the integration of the new Salesforce CRM with AURA, Vivo’s AI-powered customer service platform for WhatsApp and RCS. In the Fixa squad, I supported and evolved customer service flows for fixed-line services (copper and fiber) within AURA.
+									</li>
+									<li>
+										AURA is a web application built in <b>TypeScript</b> with <b>Microsoft Bot Framework</b> and designed around a microservices architecture. Service-to-service communication is handled through <b>RESTful APIs</b> documented with Swagger.
+									</li>
+								</ul>
 								<h3>Container Terminal Information System (CTIS)</h3>
 								<span class="image main"><img src="images/port.jpg" alt="" /></span>
 								<ul>
@@ -103,7 +116,7 @@
 							<article id="about">
 								<h2 class="major">About Me</h2>
 								<span class="image left"><img src="images/profile-edit.jpg" alt="" /></span>
-								<p> I am a software developer with background in web development, system architecture, and research-driven problem-solving. Skilled in <b>C#</b>, <b>React</b>, <b>.NET</b>, and data-driven solutions, with experience modernizing legacy systems and delivering high-performance applications. Proven ability to bridge academic research (e.g., anti-aliasing algorithms) with software development. Adept at full-stack development, agile methodologies, and cross-platform solutions, driven by a passion for innovation and technical excellence. </p>
+								<p> Full-stack developer with experience leading cross-functional squads at Vivo (Telefonica), integrating Salesforce CRM with customer service platforms, and re-engineering legacy systems into modern web applications for critical infrastructure. Master's degree in Computer Science and a published research paper in a Springer Journal. Adept at translating complex business and technical requirements into scalable solutions with ability to bridge academic research with software engineering. </p>
 							</article>
 
 						<!-- Contact -->
