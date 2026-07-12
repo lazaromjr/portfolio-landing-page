@@ -2,7 +2,7 @@
 
 services:
   nginx:
-    image: nginx:1.22.1
+    image: nginx:1.31.2
     ports:
       - "8080:80"
     volumes:
@@ -12,6 +12,6 @@ services:
     #command: 
     #  [nginx-debug, '-g', 'daemon off;']
   php:
-    image: php:8.3.0-fpm
+    image: php:8.5.8-fpm
     volumes:
      - ./:/var/www/html
