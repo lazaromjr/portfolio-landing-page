@@ -145,7 +145,7 @@
 								</form>
 								<ul class="icons">
 									<li><a href="https://t.me/lazaromjr" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
-									<li><a href="mailto:contact@lazaromonteiro.com" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
+									<li><a href="mailto:contact@lazaromonteiro.com.br" class="icon fa-envelope"><span class="label">E-mail</span></a></li>
 									<li><a href="https://github.com/lazaromjr" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.linkedin.com/in/lazaromjr/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 								</ul>

@@ -33,10 +33,10 @@ if($_POST){
         $mail->Port = $_ENV['PORT'];
 
         $mail->setFrom($_ENV['FROM'], 'Portfolio Webpage');
-        $mail->addAddress('contact@lazaromonteiro.com', 'Lazaro Monteiro');
+        $mail->addAddress('contact@lazaromonteiro.com.br', 'Lazaro Monteiro');
 
         $mail->isHTML(false);
-        $mail->Subject = 'Contact from lazaromonteiro.com webpage';
+        $mail->Subject = 'Contact from lazaromonteiro.com.br webpage';
         $mail->Body = 'From: ' . $_POST['email'] . "\nName: " . $_POST['name'] . "\n\n" . $_POST['message'];
     
         if ($_POST['email'] != null && $_POST['name'] != null && $_POST['message'] != null) {

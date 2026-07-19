@@ -3,7 +3,7 @@
 Personal landing page presenting my professional portfolio. This website showcases academic and professional materials that exemplifies my skills, qualifications, education, and experiences.
 
 ### Available at:
-- https://lazaromonteiro.com
+- https://lazaromonteiro.com (renew cancelled)
 - https://lazaromonteiro.com.br
 
 ### Running locally with Docker
